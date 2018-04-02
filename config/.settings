@@ -1,0 +1,18 @@
+{
+    "projectName": "VF_Task",
+    "username": "assh4884@cunning-goat-277018.com",
+    "id": "ee630470-3335-11e8-9351-91f84582ca5a",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://cunning-goat-277018-dev-ed.my.salesforce.com",
+    "workspace": "D:\\SF_project",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "AuraDefinitionBundle",
+        "StaticResource"
+    ]
+}

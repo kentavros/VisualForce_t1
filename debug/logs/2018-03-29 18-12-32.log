@@ -1,0 +1,518 @@
+42.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+16:12:31.0 (353205)|USER_INFO|[EXTERNAL]|0051r000007nKPL|assh4884@cunning-goat-277018.com|Greenwich Mean Time|GMT+01:00
+16:12:31.0 (392451)|EXECUTION_STARTED
+16:12:31.0 (397088)|CODE_UNIT_STARTED|[EXTERNAL]|0661r0000024L7D|VF: /apex/VforceApp
+16:12:31.0 (2365099)|SYSTEM_MODE_ENTER|true
+16:12:31.0 (2752233)|HEAP_ALLOCATE|[72]|Bytes:3
+16:12:31.0 (2798034)|HEAP_ALLOCATE|[77]|Bytes:152
+16:12:31.0 (2813810)|HEAP_ALLOCATE|[342]|Bytes:408
+16:12:31.0 (2828628)|HEAP_ALLOCATE|[355]|Bytes:408
+16:12:31.0 (2839498)|HEAP_ALLOCATE|[467]|Bytes:48
+16:12:31.0 (2867150)|HEAP_ALLOCATE|[139]|Bytes:6
+16:12:31.0 (2883727)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:1
+16:12:31.0 (2888944)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:11
+16:12:31.0 (2897708)|METHOD_ENTRY|[1]|01p1r000008Onze|VforceAppController.VforceAppController()
+16:12:31.0 (2903947)|STATEMENT_EXECUTE|[1]
+16:12:31.0 (2910384)|STATEMENT_EXECUTE|[1]
+16:12:31.0 (2943918)|HEAP_ALLOCATE|[50]|Bytes:5
+16:12:31.0 (2967995)|HEAP_ALLOCATE|[56]|Bytes:5
+16:12:31.0 (2975246)|HEAP_ALLOCATE|[64]|Bytes:7
+16:12:31.0 (2997349)|SYSTEM_MODE_ENTER|false
+16:12:31.0 (3011711)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:5
+16:12:31.0 (3022114)|SYSTEM_MODE_EXIT|false
+16:12:31.0 (3032202)|METHOD_EXIT|[1]|VforceAppController
+16:12:31.0 (3046606)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+16:12:31.0 (3055519)|VARIABLE_SCOPE_BEGIN|[1]|this|VforceAppController|true|false
+16:12:31.0 (3097419)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x352c61d4
+16:12:31.0 (3114252)|SYSTEM_MODE_ENTER|false
+16:12:31.0 (3118978)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:5
+16:12:31.0 (3130133)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:6
+16:12:31.0 (3164513)|SYSTEM_MODE_EXIT|false
+16:12:31.0 (3169444)|STATEMENT_EXECUTE|[1]
+16:12:31.0 (3175890)|SYSTEM_MODE_ENTER|false
+16:12:31.0 (3180635)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:5
+16:12:31.0 (3185196)|SYSTEM_MODE_EXIT|false
+16:12:31.0 (3244742)|SYSTEM_MODE_ENTER|true
+16:12:31.0 (3298980)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+16:12:31.0 (3306592)|VARIABLE_SCOPE_BEGIN|[3]|this|VforceAppController|true|false
+16:12:31.0 (3322231)|VARIABLE_ASSIGNMENT|[3]|this|{}|0x352c61d4
+16:12:31.0 (3339360)|SYSTEM_MODE_ENTER|false
+16:12:31.0 (3344576)|HEAP_ALLOCATE|[4]|Bytes:5
+16:12:31.0 (3348485)|STATEMENT_EXECUTE|[3]
+16:12:31.0 (3350093)|STATEMENT_EXECUTE|[4]
+16:12:31.0 (3387979)|HEAP_ALLOCATE|[4]|Bytes:4
+16:12:31.0 (3467567)|VARIABLE_SCOPE_BEGIN|[4]|result|List<Account>|true|false
+16:12:31.0 (3479721)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+16:12:31.0 (3493375)|VARIABLE_ASSIGNMENT|[4]|result|[]|0x1d0bb351
+16:12:31.0 (3498930)|STATEMENT_EXECUTE|[6]
+16:12:31.0 (3500388)|STATEMENT_EXECUTE|[6]
+16:12:31.0 (3501763)|STATEMENT_EXECUTE|[7]
+16:12:31.0 (3505056)|HEAP_ALLOCATE|[8]|Bytes:99
+16:12:31.0 (3905217)|SOQL_EXECUTE_BEGIN|[7]|Aggregations:1|SELECT Id, Name, AccountNumber, (SELECT Id, Name, Email, Phone FROM Contacts) FROM Account LIMIT 10
+16:12:31.0 (10178275)|SOQL_EXECUTE_END|[7]|Rows:10
+16:12:31.0 (10216423)|HEAP_ALLOCATE|[7]|Bytes:44
+16:12:31.0 (10287614)|HEAP_ALLOCATE|[7]|Bytes:3160
+16:12:31.0 (10322099)|HEAP_ALLOCATE|[7]|Bytes:44
+16:12:31.0 (10356043)|VARIABLE_ASSIGNMENT|[7]|result|"List of size 10 too large to display"|0x1568613e
+16:12:31.0 (10562254)|HEAP_ALLOCATE|[13]|Bytes:5
+16:12:31.0 (10580353)|HEAP_ALLOCATE|[13]|Bytes:20
+16:12:31.0 (10590870)|VARIABLE_SCOPE_BEGIN|[13]|objAcc|Account|true|false
+16:12:31.0 (10626024)|VARIABLE_ASSIGNMENT|[13]|objAcc|{"Id":"0011r00001mSXVuAAO","Name":"Edge Communications","AccountNumber":"CD451796","Contacts":[{"AccountId":"0011r00001mSXVuAAO","Id":"0031r000023uSg3AAE","Name":"Rose Gonzalez","Email":"rose@edge.com","Phone":"(512) 757-6000"},{"AccountId":"0011r00001mSXVuAAO","Id":"0031r000023uSg4AAE","Name":"Sean Forbes","Email":"sean@edge.com","Phone":"(512) 757-6000"}]}|0x255fcef0
+16:12:31.0 (10636906)|STATEMENT_EXECUTE|[14]
+16:12:31.0 (10643320)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (10649320)|HEAP_ALLOCATE|[16]|Bytes:7
+16:12:31.0 (10688649)|HEAP_ALLOCATE|[16]|Bytes:12
+16:12:31.0 (10834573)|HEAP_ALLOCATE|[16]|Bytes:54
+16:12:31.0 (10841926)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (10850785)|SYSTEM_METHOD_ENTRY|[7]|QueryLocatorIterator.QueryLocatorIterator()
+16:12:31.0 (10855166)|STATEMENT_EXECUTE|[7]
+16:12:31.0 (10864817)|SYSTEM_METHOD_EXIT|[7]|QueryLocatorIterator
+16:12:31.0 (10871967)|HEAP_ALLOCATE|[16]|Bytes:28
+16:12:31.0 (10915699)|HEAP_ALLOCATE|[16]|Bytes:12
+16:12:31.0 (10929947)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (10933168)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (10938611)|VARIABLE_SCOPE_BEGIN|[15]|this|Database.QueryLocatorIterator|true|false
+16:12:31.0 (10989025)|VARIABLE_ASSIGNMENT|[15]|this|{}|0x422be04
+16:12:31.0 (10996393)|VARIABLE_SCOPE_BEGIN|[15]|values|List<SObject>|true|false
+16:12:31.0 (11014104)|VARIABLE_ASSIGNMENT|[15]|values|[{"AccountId":"0011r00001mSXVuAAO","Id":"0031r000023uSg3AAE","Name":"Rose Gonzalez","Email":"rose@edge.com","Phone":"(512) 757-6000"},{"AccountId":"0011r00001mSXVuAAO","Id":"0031r000023uSg4AAE","Name":"Sean Forbes","Email":"sean@edge.com","Phone":"(512) 757-6000"}]|0x52955e2f
+16:12:31.0 (11025277)|VARIABLE_SCOPE_BEGIN|[15]|ql|Database.QueryLocator|true|false
+16:12:31.0 (11043393)|VARIABLE_ASSIGNMENT|[15]|ql|{}|0x7d769874
+16:12:31.0 (11048488)|VARIABLE_SCOPE_BEGIN|[15]|totalNumRecords|Integer|false|false
+16:12:31.0 (11056564)|VARIABLE_ASSIGNMENT|[15]|totalNumRecords|2
+16:12:31.0 (11059915)|VARIABLE_SCOPE_BEGIN|[15]|queryMoreSize|Integer|false|false
+16:12:31.0 (11066236)|VARIABLE_ASSIGNMENT|[15]|queryMoreSize|200
+16:12:31.0 (11117006)|HEAP_ALLOCATE|[16]|Bytes:28
+16:12:31.0 (11137026)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (11208176)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (11217926)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (11279033)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (11287927)|VARIABLE_SCOPE_BEGIN|[16]|objCon|Contact|true|false
+16:12:31.0 (11305500)|VARIABLE_ASSIGNMENT|[16]|objCon|{"AccountId":"0011r00001mSXVuAAO","Id":"0031r000023uSg3AAE","Name":"Rose Gonzalez","Email":"rose@edge.com","Phone":"(512) 757-6000"}|0x59aa3643
+16:12:31.0 (11312352)|STATEMENT_EXECUTE|[17]
+16:12:31.0 (11314502)|STATEMENT_EXECUTE|[18]
+16:12:31.0 (11317985)|HEAP_ALLOCATE|[18]|Bytes:13
+16:12:31.0 (11409590)|HEAP_ALLOCATE|[18]|Bytes:124
+16:12:31.0 (11430978)|HEAP_ALLOCATE|[18]|Bytes:137
+16:12:31.0 (11448878)|USER_DEBUG|[18]|DEBUG|---contact---Contact:{AccountId=0011r00001mSXVuAAO, Id=0031r000023uSg3AAE, Name=Rose Gonzalez, Email=rose@edge.com, Phone=(512) 757-6000}
+16:12:31.0 (11463263)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (11482857)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (11488246)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (11536051)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (11542833)|VARIABLE_SCOPE_BEGIN|[16]|objCon|Contact|true|false
+16:12:31.0 (11557045)|VARIABLE_ASSIGNMENT|[16]|objCon|{"AccountId":"0011r00001mSXVuAAO","Id":"0031r000023uSg4AAE","Name":"Sean Forbes","Email":"sean@edge.com","Phone":"(512) 757-6000"}|0x4c5d583
+16:12:31.0 (11562712)|STATEMENT_EXECUTE|[17]
+16:12:31.0 (11564244)|STATEMENT_EXECUTE|[18]
+16:12:31.0 (11598073)|HEAP_ALLOCATE|[18]|Bytes:122
+16:12:31.0 (11616410)|HEAP_ALLOCATE|[18]|Bytes:135
+16:12:31.0 (11625145)|USER_DEBUG|[18]|DEBUG|---contact---Contact:{AccountId=0011r00001mSXVuAAO, Id=0031r000023uSg4AAE, Name=Sean Forbes, Email=sean@edge.com, Phone=(512) 757-6000}
+16:12:31.0 (11634770)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (11648242)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (11656296)|VARIABLE_ASSIGNMENT|[16]|objCon|null|
+16:12:31.0 (11668693)|HEAP_ALLOCATE|[13]|Bytes:5
+16:12:31.0 (11679141)|HEAP_ALLOCATE|[13]|Bytes:20
+16:12:31.0 (11684509)|VARIABLE_SCOPE_BEGIN|[13]|objAcc|Account|true|false
+16:12:31.0 (11704772)|VARIABLE_ASSIGNMENT|[13]|objAcc|{"Id":"0011r00001mSXVvAAO","Name":"Burlington Textiles  (15 more) ...","AccountNumber":"CD656092","Contacts":[{"AccountId":"0011r00001mSXVvAAO","Id":"0031r000023uSg5AAE","Name":"Jack Rogers","Email":"jrogers@burlington.c (2 more) ...","Phone":"(336) 222-7000"}]}|0x5e58338c
+16:12:31.0 (11712097)|STATEMENT_EXECUTE|[14]
+16:12:31.0 (11728198)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (11784609)|HEAP_ALLOCATE|[16]|Bytes:28
+16:12:31.0 (11813896)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (11825585)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (11831808)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (11835281)|VARIABLE_SCOPE_BEGIN|[15]|this|Database.QueryLocatorIterator|true|false
+16:12:31.0 (11854106)|VARIABLE_ASSIGNMENT|[15]|this|{}|0x30359502
+16:12:31.0 (11862980)|VARIABLE_SCOPE_BEGIN|[15]|values|List<SObject>|true|false
+16:12:31.0 (11877784)|VARIABLE_ASSIGNMENT|[15]|values|[{"AccountId":"0011r00001mSXVvAAO","Id":"0031r000023uSg5AAE","Name":"Jack Rogers","Email":"jrogers@burlington.c (2 more) ...","Phone":"(336) 222-7000"}]|0x105d2023
+16:12:31.0 (11883405)|VARIABLE_SCOPE_BEGIN|[15]|ql|Database.QueryLocator|true|false
+16:12:31.0 (11894512)|VARIABLE_ASSIGNMENT|[15]|ql|{}|0x3b093899
+16:12:31.0 (11899259)|VARIABLE_SCOPE_BEGIN|[15]|totalNumRecords|Integer|false|false
+16:12:31.0 (11906169)|VARIABLE_ASSIGNMENT|[15]|totalNumRecords|1
+16:12:31.0 (11910300)|VARIABLE_SCOPE_BEGIN|[15]|queryMoreSize|Integer|false|false
+16:12:31.0 (11934942)|VARIABLE_ASSIGNMENT|[15]|queryMoreSize|200
+16:12:31.0 (11975782)|HEAP_ALLOCATE|[16]|Bytes:28
+16:12:31.0 (11987117)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (12006808)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (12012532)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (12059181)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (12065773)|VARIABLE_SCOPE_BEGIN|[16]|objCon|Contact|true|false
+16:12:31.0 (12082321)|VARIABLE_ASSIGNMENT|[16]|objCon|{"AccountId":"0011r00001mSXVvAAO","Id":"0031r000023uSg5AAE","Name":"Jack Rogers","Email":"jrogers@burlington.c (2 more) ...","Phone":"(336) 222-7000"}|0x9755983
+16:12:31.0 (12089425)|STATEMENT_EXECUTE|[17]
+16:12:31.0 (12091059)|STATEMENT_EXECUTE|[18]
+16:12:31.0 (12130468)|HEAP_ALLOCATE|[18]|Bytes:131
+16:12:31.0 (12145185)|HEAP_ALLOCATE|[18]|Bytes:144
+16:12:31.0 (12153638)|USER_DEBUG|[18]|DEBUG|---contact---Contact:{AccountId=0011r00001mSXVvAAO, Id=0031r000023uSg5AAE, Name=Jack Rogers, Email=jrogers@burlington.com, Phone=(336) 222-7000}
+16:12:31.0 (12164139)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (12175236)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (12182975)|VARIABLE_ASSIGNMENT|[16]|objCon|null|
+16:12:31.0 (12196927)|HEAP_ALLOCATE|[13]|Bytes:5
+16:12:31.0 (12206958)|HEAP_ALLOCATE|[13]|Bytes:20
+16:12:31.0 (12212437)|VARIABLE_SCOPE_BEGIN|[13]|objAcc|Account|true|false
+16:12:31.0 (12229137)|VARIABLE_ASSIGNMENT|[13]|objAcc|{"Id":"0011r00001mSXVwAAO","Name":"Pyramid Construction (5 more) ...","AccountNumber":"CC213425","Contacts":[{"AccountId":"0011r00001mSXVwAAO","Id":"0031r000023uSg6AAE","Name":"Pat Stumuller","Email":"pat@pyramid.net","Phone":"(014) 427-4427"}]}|0x5441313d
+16:12:31.0 (12237074)|STATEMENT_EXECUTE|[14]
+16:12:31.0 (12253434)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (12306197)|HEAP_ALLOCATE|[16]|Bytes:28
+16:12:31.0 (12333068)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (12344594)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (12349284)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (12354062)|VARIABLE_SCOPE_BEGIN|[15]|this|Database.QueryLocatorIterator|true|false
+16:12:31.0 (12371593)|VARIABLE_ASSIGNMENT|[15]|this|{}|0xaca62a0
+16:12:31.0 (12377386)|VARIABLE_SCOPE_BEGIN|[15]|values|List<SObject>|true|false
+16:12:31.0 (12390601)|VARIABLE_ASSIGNMENT|[15]|values|[{"AccountId":"0011r00001mSXVwAAO","Id":"0031r000023uSg6AAE","Name":"Pat Stumuller","Email":"pat@pyramid.net","Phone":"(014) 427-4427"}]|0x16cb7b7e
+16:12:31.0 (12395878)|VARIABLE_SCOPE_BEGIN|[15]|ql|Database.QueryLocator|true|false
+16:12:31.0 (12408663)|VARIABLE_ASSIGNMENT|[15]|ql|{}|0x6f6e0dbc
+16:12:31.0 (12413457)|VARIABLE_SCOPE_BEGIN|[15]|totalNumRecords|Integer|false|false
+16:12:31.0 (12420216)|VARIABLE_ASSIGNMENT|[15]|totalNumRecords|1
+16:12:31.0 (12424082)|VARIABLE_SCOPE_BEGIN|[15]|queryMoreSize|Integer|false|false
+16:12:31.0 (12430147)|VARIABLE_ASSIGNMENT|[15]|queryMoreSize|200
+16:12:31.0 (12468420)|HEAP_ALLOCATE|[16]|Bytes:28
+16:12:31.0 (12478822)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (12497853)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (12503142)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (12550384)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (12557128)|VARIABLE_SCOPE_BEGIN|[16]|objCon|Contact|true|false
+16:12:31.0 (12570108)|VARIABLE_ASSIGNMENT|[16]|objCon|{"AccountId":"0011r00001mSXVwAAO","Id":"0031r000023uSg6AAE","Name":"Pat Stumuller","Email":"pat@pyramid.net","Phone":"(014) 427-4427"}|0x3c7dc652
+16:12:31.0 (12575766)|STATEMENT_EXECUTE|[17]
+16:12:31.0 (12577176)|STATEMENT_EXECUTE|[18]
+16:12:31.0 (12621256)|HEAP_ALLOCATE|[18]|Bytes:126
+16:12:31.0 (12634930)|HEAP_ALLOCATE|[18]|Bytes:139
+16:12:31.0 (12644966)|USER_DEBUG|[18]|DEBUG|---contact---Contact:{AccountId=0011r00001mSXVwAAO, Id=0031r000023uSg6AAE, Name=Pat Stumuller, Email=pat@pyramid.net, Phone=(014) 427-4427}
+16:12:31.0 (12655950)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (12667447)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (12674081)|VARIABLE_ASSIGNMENT|[16]|objCon|null|
+16:12:31.0 (12685351)|HEAP_ALLOCATE|[13]|Bytes:5
+16:12:31.0 (12696977)|HEAP_ALLOCATE|[13]|Bytes:20
+16:12:31.0 (12704009)|VARIABLE_SCOPE_BEGIN|[13]|objAcc|Account|true|false
+16:12:31.0 (12720341)|VARIABLE_ASSIGNMENT|[13]|objAcc|{"Id":"0011r00001mSXVxAAO","Name":"Dickenson plc","AccountNumber":"CC634267","Contacts":[{"AccountId":"0011r00001mSXVxAAO","Id":"0031r000023uSg7AAE","Name":"Andy Young","Email":"a_young@dickenson.co (1 more) ...","Phone":"(785) 241-6200"}]}|0x18b6a854
+16:12:31.0 (12727269)|STATEMENT_EXECUTE|[14]
+16:12:31.0 (12741664)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (12793972)|HEAP_ALLOCATE|[16]|Bytes:28
+16:12:31.0 (12822287)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (12833345)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (12836490)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (12839961)|VARIABLE_SCOPE_BEGIN|[15]|this|Database.QueryLocatorIterator|true|false
+16:12:31.0 (12858564)|VARIABLE_ASSIGNMENT|[15]|this|{}|0x1d513d38
+16:12:31.0 (12866080)|VARIABLE_SCOPE_BEGIN|[15]|values|List<SObject>|true|false
+16:12:31.0 (12880619)|VARIABLE_ASSIGNMENT|[15]|values|[{"AccountId":"0011r00001mSXVxAAO","Id":"0031r000023uSg7AAE","Name":"Andy Young","Email":"a_young@dickenson.co (1 more) ...","Phone":"(785) 241-6200"}]|0x44d79350
+16:12:31.0 (12886664)|VARIABLE_SCOPE_BEGIN|[15]|ql|Database.QueryLocator|true|false
+16:12:31.0 (12897557)|VARIABLE_ASSIGNMENT|[15]|ql|{}|0x90a103f
+16:12:31.0 (12902399)|VARIABLE_SCOPE_BEGIN|[15]|totalNumRecords|Integer|false|false
+16:12:31.0 (12909776)|VARIABLE_ASSIGNMENT|[15]|totalNumRecords|1
+16:12:31.0 (12914851)|VARIABLE_SCOPE_BEGIN|[15]|queryMoreSize|Integer|false|false
+16:12:31.0 (12922025)|VARIABLE_ASSIGNMENT|[15]|queryMoreSize|200
+16:12:31.0 (12957086)|HEAP_ALLOCATE|[16]|Bytes:28
+16:12:31.0 (12968453)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (12988877)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (12994000)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (13038116)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (13045031)|VARIABLE_SCOPE_BEGIN|[16]|objCon|Contact|true|false
+16:12:31.0 (13059001)|VARIABLE_ASSIGNMENT|[16]|objCon|{"AccountId":"0011r00001mSXVxAAO","Id":"0031r000023uSg7AAE","Name":"Andy Young","Email":"a_young@dickenson.co (1 more) ...","Phone":"(785) 241-6200"}|0x34ede7b0
+16:12:31.0 (13065354)|STATEMENT_EXECUTE|[17]
+16:12:31.0 (13066805)|STATEMENT_EXECUTE|[18]
+16:12:31.0 (13106352)|HEAP_ALLOCATE|[18]|Bytes:129
+16:12:31.0 (13120096)|HEAP_ALLOCATE|[18]|Bytes:142
+16:12:31.0 (13129849)|USER_DEBUG|[18]|DEBUG|---contact---Contact:{AccountId=0011r00001mSXVxAAO, Id=0031r000023uSg7AAE, Name=Andy Young, Email=a_young@dickenson.com, Phone=(785) 241-6200}
+16:12:31.0 (13141953)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (13152952)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (13160032)|VARIABLE_ASSIGNMENT|[16]|objCon|null|
+16:12:31.0 (13171293)|HEAP_ALLOCATE|[13]|Bytes:5
+16:12:31.0 (13181334)|HEAP_ALLOCATE|[13]|Bytes:20
+16:12:31.0 (13188591)|VARIABLE_SCOPE_BEGIN|[13]|objAcc|Account|true|false
+16:12:31.0 (13208468)|VARIABLE_ASSIGNMENT|[13]|objAcc|{"Id":"0011r00001mSXVyAAO","Name":"Grand Hotels & Resor (6 more) ...","AccountNumber":"CD439877","Contacts":[{"AccountId":"0011r00001mSXVyAAO","Id":"0031r000023uSg8AAE","Name":"Tim Barr","Email":"barr_tim@grandhotels (4 more) ...","Phone":"(312) 596-1000"},{"AccountId":"0011r00001mSXVyAAO","Id":"0031r000023uSg9AAE","Name":"John Bond","Email":"bond_john@grandhotel (5 more) ...","Phone":"(312) 596-1000"}]}|0x4345cdfc
+16:12:31.0 (13217018)|STATEMENT_EXECUTE|[14]
+16:12:31.0 (13231344)|HEAP_ALLOCATE|[16]|Bytes:12
+16:12:31.0 (13283084)|HEAP_ALLOCATE|[16]|Bytes:28
+16:12:31.0 (13308362)|HEAP_ALLOCATE|[16]|Bytes:12
+16:12:31.0 (13318989)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (13322352)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (13325534)|VARIABLE_SCOPE_BEGIN|[15]|this|Database.QueryLocatorIterator|true|false
+16:12:31.0 (13342538)|VARIABLE_ASSIGNMENT|[15]|this|{}|0x1616ff4f
+16:12:31.0 (13350446)|VARIABLE_SCOPE_BEGIN|[15]|values|List<SObject>|true|false
+16:12:31.0 (13368463)|VARIABLE_ASSIGNMENT|[15]|values|[{"AccountId":"0011r00001mSXVyAAO","Id":"0031r000023uSg8AAE","Name":"Tim Barr","Email":"barr_tim@grandhotels (4 more) ...","Phone":"(312) 596-1000"},{"AccountId":"0011r00001mSXVyAAO","Id":"0031r000023uSg9AAE","Name":"John Bond","Email":"bond_john@grandhotel (5 more) ...","Phone":"(312) 596-1000"}]|0x2bab848
+16:12:31.0 (13375792)|VARIABLE_SCOPE_BEGIN|[15]|ql|Database.QueryLocator|true|false
+16:12:31.0 (13386396)|VARIABLE_ASSIGNMENT|[15]|ql|{}|0x7a8fe65c
+16:12:31.0 (13391331)|VARIABLE_SCOPE_BEGIN|[15]|totalNumRecords|Integer|false|false
+16:12:31.0 (13398761)|VARIABLE_ASSIGNMENT|[15]|totalNumRecords|2
+16:12:31.0 (13404017)|VARIABLE_SCOPE_BEGIN|[15]|queryMoreSize|Integer|false|false
+16:12:31.0 (13410731)|VARIABLE_ASSIGNMENT|[15]|queryMoreSize|200
+16:12:31.0 (13445968)|HEAP_ALLOCATE|[16]|Bytes:28
+16:12:31.0 (13457503)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (13476534)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (13481918)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (13525242)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (13534503)|VARIABLE_SCOPE_BEGIN|[16]|objCon|Contact|true|false
+16:12:31.0 (13548146)|VARIABLE_ASSIGNMENT|[16]|objCon|{"AccountId":"0011r00001mSXVyAAO","Id":"0031r000023uSg8AAE","Name":"Tim Barr","Email":"barr_tim@grandhotels (4 more) ...","Phone":"(312) 596-1000"}|0x1eae4563
+16:12:31.0 (13554145)|STATEMENT_EXECUTE|[17]
+16:12:31.0 (13555700)|STATEMENT_EXECUTE|[18]
+16:12:31.0 (13595648)|HEAP_ALLOCATE|[18]|Bytes:130
+16:12:31.0 (13613188)|HEAP_ALLOCATE|[18]|Bytes:143
+16:12:31.0 (13621597)|USER_DEBUG|[18]|DEBUG|---contact---Contact:{AccountId=0011r00001mSXVyAAO, Id=0031r000023uSg8AAE, Name=Tim Barr, Email=barr_tim@grandhotels.com, Phone=(312) 596-1000}
+16:12:31.0 (13631424)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (13652265)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (13658110)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (13699326)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (13705449)|VARIABLE_SCOPE_BEGIN|[16]|objCon|Contact|true|false
+16:12:31.0 (13719388)|VARIABLE_ASSIGNMENT|[16]|objCon|{"AccountId":"0011r00001mSXVyAAO","Id":"0031r000023uSg9AAE","Name":"John Bond","Email":"bond_john@grandhotel (5 more) ...","Phone":"(312) 596-1000"}|0x3d34be74
+16:12:31.0 (13725030)|STATEMENT_EXECUTE|[17]
+16:12:31.0 (13726689)|STATEMENT_EXECUTE|[18]
+16:12:31.0 (13758209)|HEAP_ALLOCATE|[18]|Bytes:132
+16:12:31.0 (13770352)|HEAP_ALLOCATE|[18]|Bytes:145
+16:12:31.0 (13777814)|USER_DEBUG|[18]|DEBUG|---contact---Contact:{AccountId=0011r00001mSXVyAAO, Id=0031r000023uSg9AAE, Name=John Bond, Email=bond_john@grandhotels.com, Phone=(312) 596-1000}
+16:12:31.0 (13787085)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (13797825)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (13806985)|VARIABLE_ASSIGNMENT|[16]|objCon|null|
+16:12:31.0 (13818888)|HEAP_ALLOCATE|[13]|Bytes:5
+16:12:31.0 (13828679)|HEAP_ALLOCATE|[13]|Bytes:20
+16:12:31.0 (13833982)|VARIABLE_SCOPE_BEGIN|[13]|objAcc|Account|true|false
+16:12:31.0 (13860792)|VARIABLE_ASSIGNMENT|[13]|objAcc|{"Id":"0011r00001mSXVzAAO","Name":"United Oil & Gas Cor (2 more) ...","AccountNumber":"CD355118","Contacts":[{"AccountId":"0011r00001mSXVzAAO","Id":"0031r000023uSgAAAU","Name":"Stella Pavlova","Email":"spavlova@uog.com","Phone":"(212) 842-5500"},{"AccountId":"0011r00001mSXVzAAO","Id":"0031r000023uSgBAAU","Name":"Lauren Boyle","Email":"lboyle@uog.com","Phone":"(212) 842-5500"},{"AccountId":"0011r00001mSXVzAAO","Id":"0031r000023uSgKAAU","Name":"Avi Green","Email":"agreen@uog.com","Phone":"(212) 842-5500"},{"AccountId":"0011r00001mSXVzAAO","Id":"0031r000023uSgFAAU","Name":"Arthur Song","Email":"asong@uog.com","Phone":"(212) 842-5500"}]}|0x5c9e424b
+16:12:31.0 (13873818)|STATEMENT_EXECUTE|[14]
+16:12:31.0 (13888399)|HEAP_ALLOCATE|[16]|Bytes:20
+16:12:31.0 (13941479)|HEAP_ALLOCATE|[16]|Bytes:28
+16:12:31.0 (13968377)|HEAP_ALLOCATE|[16]|Bytes:20
+16:12:31.0 (13980171)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (13983756)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (13987286)|VARIABLE_SCOPE_BEGIN|[15]|this|Database.QueryLocatorIterator|true|false
+16:12:31.0 (14004570)|VARIABLE_ASSIGNMENT|[15]|this|{}|0x235d8ada
+16:12:31.0 (14011273)|VARIABLE_SCOPE_BEGIN|[15]|values|List<SObject>|true|false
+16:12:31.0 (14034168)|VARIABLE_ASSIGNMENT|[15]|values|[{"AccountId":"0011r00001mSXVzAAO","Id":"0031r000023uSgAAAU","Name":"Stella Pavlova","Email":"spavlova@uog.com","Phone":"(212) 842-5500"},{"AccountId":"0011r00001mSXVzAAO","Id":"0031r000023uSgBAAU","Name":"Lauren Boyle","Email":"lboyle@uog.com","Phone":"(212) 842-5500"},{"AccountId":"0011r00001mSXVzAAO","Id":"0031r000023uSgKAAU","Name":"Avi Green","Email":"agreen@uog.com","Phone":"(212) 842-5500"},{"AccountId":"0011r00001mSXVzAAO","Id":"0031r000023uSgFAAU","Name":"Arthur Song","Email":"asong@uog.com","Phone":"(212) 842-5500"}]|0x210e579
+16:12:31.0 (14043822)|VARIABLE_SCOPE_BEGIN|[15]|ql|Database.QueryLocator|true|false
+16:12:31.0 (14055020)|VARIABLE_ASSIGNMENT|[15]|ql|{}|0x55bf758b
+16:12:31.0 (14059594)|VARIABLE_SCOPE_BEGIN|[15]|totalNumRecords|Integer|false|false
+16:12:31.0 (14066305)|VARIABLE_ASSIGNMENT|[15]|totalNumRecords|4
+16:12:31.0 (14069698)|VARIABLE_SCOPE_BEGIN|[15]|queryMoreSize|Integer|false|false
+16:12:31.0 (14077416)|VARIABLE_ASSIGNMENT|[15]|queryMoreSize|200
+16:12:31.0 (14114049)|HEAP_ALLOCATE|[16]|Bytes:28
+16:12:31.0 (14124612)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (14145366)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (14150886)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (14193604)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (14200251)|VARIABLE_SCOPE_BEGIN|[16]|objCon|Contact|true|false
+16:12:31.0 (14213458)|VARIABLE_ASSIGNMENT|[16]|objCon|{"AccountId":"0011r00001mSXVzAAO","Id":"0031r000023uSgAAAU","Name":"Stella Pavlova","Email":"spavlova@uog.com","Phone":"(212) 842-5500"}|0x6f29a0d6
+16:12:31.0 (14219233)|STATEMENT_EXECUTE|[17]
+16:12:31.0 (14220624)|STATEMENT_EXECUTE|[18]
+16:12:31.0 (14259228)|HEAP_ALLOCATE|[18]|Bytes:128
+16:12:31.0 (14273593)|HEAP_ALLOCATE|[18]|Bytes:141
+16:12:31.0 (14281920)|USER_DEBUG|[18]|DEBUG|---contact---Contact:{AccountId=0011r00001mSXVzAAO, Id=0031r000023uSgAAAU, Name=Stella Pavlova, Email=spavlova@uog.com, Phone=(212) 842-5500}
+16:12:31.0 (14292877)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (14313289)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (14318221)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (14357820)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (14363692)|VARIABLE_SCOPE_BEGIN|[16]|objCon|Contact|true|false
+16:12:31.0 (14376907)|VARIABLE_ASSIGNMENT|[16]|objCon|{"AccountId":"0011r00001mSXVzAAO","Id":"0031r000023uSgBAAU","Name":"Lauren Boyle","Email":"lboyle@uog.com","Phone":"(212) 842-5500"}|0x34a21ae4
+16:12:31.0 (14382725)|STATEMENT_EXECUTE|[17]
+16:12:31.0 (14384285)|STATEMENT_EXECUTE|[18]
+16:12:31.0 (14415408)|HEAP_ALLOCATE|[18]|Bytes:124
+16:12:31.0 (14427594)|HEAP_ALLOCATE|[18]|Bytes:137
+16:12:31.0 (14435235)|USER_DEBUG|[18]|DEBUG|---contact---Contact:{AccountId=0011r00001mSXVzAAO, Id=0031r000023uSgBAAU, Name=Lauren Boyle, Email=lboyle@uog.com, Phone=(212) 842-5500}
+16:12:31.0 (14444236)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (14464015)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (14469151)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (14505983)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (14513984)|VARIABLE_SCOPE_BEGIN|[16]|objCon|Contact|true|false
+16:12:31.0 (14527888)|VARIABLE_ASSIGNMENT|[16]|objCon|{"AccountId":"0011r00001mSXVzAAO","Id":"0031r000023uSgKAAU","Name":"Avi Green","Email":"agreen@uog.com","Phone":"(212) 842-5500"}|0x584bc44e
+16:12:31.0 (14536712)|STATEMENT_EXECUTE|[17]
+16:12:31.0 (14538293)|STATEMENT_EXECUTE|[18]
+16:12:31.0 (14565465)|HEAP_ALLOCATE|[18]|Bytes:121
+16:12:31.0 (14576318)|HEAP_ALLOCATE|[18]|Bytes:134
+16:12:31.0 (14583438)|USER_DEBUG|[18]|DEBUG|---contact---Contact:{AccountId=0011r00001mSXVzAAO, Id=0031r000023uSgKAAU, Name=Avi Green, Email=agreen@uog.com, Phone=(212) 842-5500}
+16:12:31.0 (14595965)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (14616064)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (14620819)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (14659696)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (14665587)|VARIABLE_SCOPE_BEGIN|[16]|objCon|Contact|true|false
+16:12:31.0 (14678121)|VARIABLE_ASSIGNMENT|[16]|objCon|{"AccountId":"0011r00001mSXVzAAO","Id":"0031r000023uSgFAAU","Name":"Arthur Song","Email":"asong@uog.com","Phone":"(212) 842-5500"}|0x4014162d
+16:12:31.0 (14683598)|STATEMENT_EXECUTE|[17]
+16:12:31.0 (14684956)|STATEMENT_EXECUTE|[18]
+16:12:31.0 (14714449)|HEAP_ALLOCATE|[18]|Bytes:122
+16:12:31.0 (14726665)|HEAP_ALLOCATE|[18]|Bytes:135
+16:12:31.0 (14733312)|USER_DEBUG|[18]|DEBUG|---contact---Contact:{AccountId=0011r00001mSXVzAAO, Id=0031r000023uSgFAAU, Name=Arthur Song, Email=asong@uog.com, Phone=(212) 842-5500}
+16:12:31.0 (14741934)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (14754335)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (14762785)|VARIABLE_ASSIGNMENT|[16]|objCon|null|
+16:12:31.0 (14774887)|HEAP_ALLOCATE|[13]|Bytes:5
+16:12:31.0 (14784679)|HEAP_ALLOCATE|[13]|Bytes:20
+16:12:31.0 (14789730)|VARIABLE_SCOPE_BEGIN|[13]|objAcc|Account|true|false
+16:12:31.0 (14812641)|VARIABLE_ASSIGNMENT|[13]|objAcc|{"Id":"0011r00001mSXW0AAO","Name":"Express Logistics an (11 more) ...","AccountNumber":"CC947211","Contacts":[{"AccountId":"0011r00001mSXW0AAO","Id":"0031r000023uSgCAAU","Name":"Babara Levy","Email":"b.levy@expressl&t.ne (1 more) ...","Phone":"(503) 421-7800"},{"AccountId":"0011r00001mSXW0AAO","Id":"0031r000023uSgDAAU","Name":"Josh Davis","Email":"j.davis@expressl&t.n (2 more) ...","Phone":"(503) 421-7800"}]}|0x10b483c
+16:12:31.0 (14822294)|STATEMENT_EXECUTE|[14]
+16:12:31.0 (14837105)|HEAP_ALLOCATE|[16]|Bytes:12
+16:12:31.0 (14890821)|HEAP_ALLOCATE|[16]|Bytes:28
+16:12:31.0 (14916268)|HEAP_ALLOCATE|[16]|Bytes:12
+16:12:31.0 (14930700)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (14934152)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (14937773)|VARIABLE_SCOPE_BEGIN|[15]|this|Database.QueryLocatorIterator|true|false
+16:12:31.0 (14954896)|VARIABLE_ASSIGNMENT|[15]|this|{}|0x5007c466
+16:12:31.0 (14960550)|VARIABLE_SCOPE_BEGIN|[15]|values|List<SObject>|true|false
+16:12:31.0 (14980132)|VARIABLE_ASSIGNMENT|[15]|values|[{"AccountId":"0011r00001mSXW0AAO","Id":"0031r000023uSgCAAU","Name":"Babara Levy","Email":"b.levy@expressl&t.ne (1 more) ...","Phone":"(503) 421-7800"},{"AccountId":"0011r00001mSXW0AAO","Id":"0031r000023uSgDAAU","Name":"Josh Davis","Email":"j.davis@expressl&t.n (2 more) ...","Phone":"(503) 421-7800"}]|0x1fc39fe6
+16:12:31.0 (14987704)|VARIABLE_SCOPE_BEGIN|[15]|ql|Database.QueryLocator|true|false
+16:12:31.0 (14998819)|VARIABLE_ASSIGNMENT|[15]|ql|{}|0x1afd9a4a
+16:12:31.0 (15003137)|VARIABLE_SCOPE_BEGIN|[15]|totalNumRecords|Integer|false|false
+16:12:31.0 (15010779)|VARIABLE_ASSIGNMENT|[15]|totalNumRecords|2
+16:12:31.0 (15014211)|VARIABLE_SCOPE_BEGIN|[15]|queryMoreSize|Integer|false|false
+16:12:31.0 (15020461)|VARIABLE_ASSIGNMENT|[15]|queryMoreSize|200
+16:12:31.0 (15058269)|HEAP_ALLOCATE|[16]|Bytes:28
+16:12:31.0 (15068668)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (15088910)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (15093978)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (15137841)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (15145162)|VARIABLE_SCOPE_BEGIN|[16]|objCon|Contact|true|false
+16:12:31.0 (15158337)|VARIABLE_ASSIGNMENT|[16]|objCon|{"AccountId":"0011r00001mSXW0AAO","Id":"0031r000023uSgCAAU","Name":"Babara Levy","Email":"b.levy@expressl&t.ne (1 more) ...","Phone":"(503) 421-7800"}|0x621931e9
+16:12:31.0 (15164448)|STATEMENT_EXECUTE|[17]
+16:12:31.0 (15165842)|STATEMENT_EXECUTE|[18]
+16:12:31.0 (15203891)|HEAP_ALLOCATE|[18]|Bytes:130
+16:12:31.0 (15217141)|HEAP_ALLOCATE|[18]|Bytes:143
+16:12:31.0 (15225580)|USER_DEBUG|[18]|DEBUG|---contact---Contact:{AccountId=0011r00001mSXW0AAO, Id=0031r000023uSgCAAU, Name=Babara Levy, Email=b.levy@expressl&t.net, Phone=(503) 421-7800}
+16:12:31.0 (15235382)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (15254570)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (15259180)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (15299098)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (15304990)|VARIABLE_SCOPE_BEGIN|[16]|objCon|Contact|true|false
+16:12:31.0 (15318317)|VARIABLE_ASSIGNMENT|[16]|objCon|{"AccountId":"0011r00001mSXW0AAO","Id":"0031r000023uSgDAAU","Name":"Josh Davis","Email":"j.davis@expressl&t.n (2 more) ...","Phone":"(503) 421-7800"}|0x46486274
+16:12:31.0 (15324129)|STATEMENT_EXECUTE|[17]
+16:12:31.0 (15325510)|STATEMENT_EXECUTE|[18]
+16:12:31.0 (15356584)|HEAP_ALLOCATE|[18]|Bytes:130
+16:12:31.0 (15368055)|HEAP_ALLOCATE|[18]|Bytes:143
+16:12:31.0 (15375299)|USER_DEBUG|[18]|DEBUG|---contact---Contact:{AccountId=0011r00001mSXW0AAO, Id=0031r000023uSgDAAU, Name=Josh Davis, Email=j.davis@expressl&t.net, Phone=(503) 421-7800}
+16:12:31.0 (15384203)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (15395215)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (15403191)|VARIABLE_ASSIGNMENT|[16]|objCon|null|
+16:12:31.0 (15416811)|HEAP_ALLOCATE|[13]|Bytes:5
+16:12:31.0 (15427134)|HEAP_ALLOCATE|[13]|Bytes:20
+16:12:31.0 (15432643)|VARIABLE_SCOPE_BEGIN|[13]|objAcc|Account|true|false
+16:12:31.0 (15449097)|VARIABLE_ASSIGNMENT|[13]|objAcc|{"Id":"0011r00001mSXW1AAO","Name":"University of Arizon (1 more) ...","AccountNumber":"CD736025","Contacts":[{"AccountId":"0011r00001mSXW1AAO","Id":"0031r000023uSgEAAU","Name":"Jane Grey","Email":"jane_gray@uoa.edu","Phone":"(520) 773-9050"}]}|0x2c52a441
+16:12:31.0 (15456271)|STATEMENT_EXECUTE|[14]
+16:12:31.0 (15471529)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (15523283)|HEAP_ALLOCATE|[16]|Bytes:28
+16:12:31.0 (15549590)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (15560032)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (15563429)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (15566861)|VARIABLE_SCOPE_BEGIN|[15]|this|Database.QueryLocatorIterator|true|false
+16:12:31.0 (15585936)|VARIABLE_ASSIGNMENT|[15]|this|{}|0x3440b7b3
+16:12:31.0 (15593551)|VARIABLE_SCOPE_BEGIN|[15]|values|List<SObject>|true|false
+16:12:31.0 (15611802)|VARIABLE_ASSIGNMENT|[15]|values|[{"AccountId":"0011r00001mSXW1AAO","Id":"0031r000023uSgEAAU","Name":"Jane Grey","Email":"jane_gray@uoa.edu","Phone":"(520) 773-9050"}]|0x5a0a61a9
+16:12:31.0 (15617505)|VARIABLE_SCOPE_BEGIN|[15]|ql|Database.QueryLocator|true|false
+16:12:31.0 (15627757)|VARIABLE_ASSIGNMENT|[15]|ql|{}|0x59b5f9a1
+16:12:31.0 (15632461)|VARIABLE_SCOPE_BEGIN|[15]|totalNumRecords|Integer|false|false
+16:12:31.0 (15640095)|VARIABLE_ASSIGNMENT|[15]|totalNumRecords|1
+16:12:31.0 (15644762)|VARIABLE_SCOPE_BEGIN|[15]|queryMoreSize|Integer|false|false
+16:12:31.0 (15651194)|VARIABLE_ASSIGNMENT|[15]|queryMoreSize|200
+16:12:31.0 (15685803)|HEAP_ALLOCATE|[16]|Bytes:28
+16:12:31.0 (15697497)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (15716345)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (15721288)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (15764445)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (15770905)|VARIABLE_SCOPE_BEGIN|[16]|objCon|Contact|true|false
+16:12:31.0 (15783550)|VARIABLE_ASSIGNMENT|[16]|objCon|{"AccountId":"0011r00001mSXW1AAO","Id":"0031r000023uSgEAAU","Name":"Jane Grey","Email":"jane_gray@uoa.edu","Phone":"(520) 773-9050"}|0x4027a747
+16:12:31.0 (15789519)|STATEMENT_EXECUTE|[17]
+16:12:31.0 (15790977)|STATEMENT_EXECUTE|[18]
+16:12:31.0 (15829406)|HEAP_ALLOCATE|[18]|Bytes:124
+16:12:31.0 (15842728)|HEAP_ALLOCATE|[18]|Bytes:137
+16:12:31.0 (15850517)|USER_DEBUG|[18]|DEBUG|---contact---Contact:{AccountId=0011r00001mSXW1AAO, Id=0031r000023uSgEAAU, Name=Jane Grey, Email=jane_gray@uoa.edu, Phone=(520) 773-9050}
+16:12:31.0 (15862663)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (15874759)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (15881567)|VARIABLE_ASSIGNMENT|[16]|objCon|null|
+16:12:31.0 (15892362)|HEAP_ALLOCATE|[13]|Bytes:5
+16:12:31.0 (15901562)|HEAP_ALLOCATE|[13]|Bytes:20
+16:12:31.0 (15906811)|VARIABLE_SCOPE_BEGIN|[13]|objAcc|Account|true|false
+16:12:31.0 (15925695)|VARIABLE_ASSIGNMENT|[13]|objAcc|{"Id":"0011r00001mSXW2AAO","Name":"United Oil & Gas, UK","AccountNumber":"CD355119-A","Contacts":[{"AccountId":"0011r00001mSXW2AAO","Id":"0031r000023uSgGAAU","Name":"Ashley James","Email":"ajames@uog.com","Phone":"+44 191 4956203"}]}|0x4195a61a
+16:12:31.0 (15932288)|STATEMENT_EXECUTE|[14]
+16:12:31.0 (15946627)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (15997832)|HEAP_ALLOCATE|[16]|Bytes:28
+16:12:31.0 (16037984)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (16049908)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (16052884)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (16056166)|VARIABLE_SCOPE_BEGIN|[15]|this|Database.QueryLocatorIterator|true|false
+16:12:31.0 (16074601)|VARIABLE_ASSIGNMENT|[15]|this|{}|0x2fec0717
+16:12:31.0 (16081710)|VARIABLE_SCOPE_BEGIN|[15]|values|List<SObject>|true|false
+16:12:31.0 (16095220)|VARIABLE_ASSIGNMENT|[15]|values|[{"AccountId":"0011r00001mSXW2AAO","Id":"0031r000023uSgGAAU","Name":"Ashley James","Email":"ajames@uog.com","Phone":"+44 191 4956203"}]|0x1e20c076
+16:12:31.0 (16111019)|VARIABLE_SCOPE_BEGIN|[15]|ql|Database.QueryLocator|true|false
+16:12:31.0 (16122892)|VARIABLE_ASSIGNMENT|[15]|ql|{}|0x172efd32
+16:12:31.0 (16129653)|VARIABLE_SCOPE_BEGIN|[15]|totalNumRecords|Integer|false|false
+16:12:31.0 (16137315)|VARIABLE_ASSIGNMENT|[15]|totalNumRecords|1
+16:12:31.0 (16141140)|VARIABLE_SCOPE_BEGIN|[15]|queryMoreSize|Integer|false|false
+16:12:31.0 (16147200)|VARIABLE_ASSIGNMENT|[15]|queryMoreSize|200
+16:12:31.0 (16183943)|HEAP_ALLOCATE|[16]|Bytes:28
+16:12:31.0 (16195081)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (16213718)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (16218473)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (16262765)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (16269771)|VARIABLE_SCOPE_BEGIN|[16]|objCon|Contact|true|false
+16:12:31.0 (16282784)|VARIABLE_ASSIGNMENT|[16]|objCon|{"AccountId":"0011r00001mSXW2AAO","Id":"0031r000023uSgGAAU","Name":"Ashley James","Email":"ajames@uog.com","Phone":"+44 191 4956203"}|0x20e26410
+16:12:31.0 (16290019)|STATEMENT_EXECUTE|[17]
+16:12:31.0 (16291983)|STATEMENT_EXECUTE|[18]
+16:12:31.0 (16330078)|HEAP_ALLOCATE|[18]|Bytes:125
+16:12:31.0 (16343933)|HEAP_ALLOCATE|[18]|Bytes:138
+16:12:31.0 (16354651)|USER_DEBUG|[18]|DEBUG|---contact---Contact:{AccountId=0011r00001mSXW2AAO, Id=0031r000023uSgGAAU, Name=Ashley James, Email=ajames@uog.com, Phone=+44 191 4956203}
+16:12:31.0 (16364686)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (16375520)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (16382262)|VARIABLE_ASSIGNMENT|[16]|objCon|null|
+16:12:31.0 (16393277)|HEAP_ALLOCATE|[13]|Bytes:5
+16:12:31.0 (16405529)|HEAP_ALLOCATE|[13]|Bytes:20
+16:12:31.0 (16411039)|VARIABLE_SCOPE_BEGIN|[13]|objAcc|Account|true|false
+16:12:31.0 (16431111)|VARIABLE_ASSIGNMENT|[13]|objAcc|{"Id":"0011r00001mSXW3AAO","Name":"United Oil & Gas, Si (7 more) ...","AccountNumber":"CD355120-B","Contacts":[{"AccountId":"0011r00001mSXW3AAO","Id":"0031r000023uSgHAAU","Name":"Tom Ripley","Email":"tripley@uog.com","Phone":"(650) 450-8810"},{"AccountId":"0011r00001mSXW3AAO","Id":"0031r000023uSgIAAU","Name":"Liz D'Cruz","Email":"ldcruz@uog.com","Phone":"(650) 450-8810"}]}|0x6f372879
+16:12:31.0 (16439986)|STATEMENT_EXECUTE|[14]
+16:12:31.0 (16457176)|HEAP_ALLOCATE|[16]|Bytes:12
+16:12:31.0 (16508133)|HEAP_ALLOCATE|[16]|Bytes:28
+16:12:31.0 (16537498)|HEAP_ALLOCATE|[16]|Bytes:12
+16:12:31.0 (16547911)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (16551102)|HEAP_ALLOCATE|[16]|Bytes:8
+16:12:31.0 (16554678)|VARIABLE_SCOPE_BEGIN|[15]|this|Database.QueryLocatorIterator|true|false
+16:12:31.0 (16571789)|VARIABLE_ASSIGNMENT|[15]|this|{}|0x61206687
+16:12:31.0 (16577172)|VARIABLE_SCOPE_BEGIN|[15]|values|List<SObject>|true|false
+16:12:31.0 (16595571)|VARIABLE_ASSIGNMENT|[15]|values|[{"AccountId":"0011r00001mSXW3AAO","Id":"0031r000023uSgHAAU","Name":"Tom Ripley","Email":"tripley@uog.com","Phone":"(650) 450-8810"},{"AccountId":"0011r00001mSXW3AAO","Id":"0031r000023uSgIAAU","Name":"Liz D'Cruz","Email":"ldcruz@uog.com","Phone":"(650) 450-8810"}]|0x2e3b110b
+16:12:31.0 (16606729)|VARIABLE_SCOPE_BEGIN|[15]|ql|Database.QueryLocator|true|false
+16:12:31.0 (16618255)|VARIABLE_ASSIGNMENT|[15]|ql|{}|0x368047ca
+16:12:31.0 (16622660)|VARIABLE_SCOPE_BEGIN|[15]|totalNumRecords|Integer|false|false
+16:12:31.0 (16629652)|VARIABLE_ASSIGNMENT|[15]|totalNumRecords|2
+16:12:31.0 (16633238)|VARIABLE_SCOPE_BEGIN|[15]|queryMoreSize|Integer|false|false
+16:12:31.0 (16639815)|VARIABLE_ASSIGNMENT|[15]|queryMoreSize|200
+16:12:31.0 (16676664)|HEAP_ALLOCATE|[16]|Bytes:28
+16:12:31.0 (16686724)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (16707053)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (16712446)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (16757233)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (16764262)|VARIABLE_SCOPE_BEGIN|[16]|objCon|Contact|true|false
+16:12:31.0 (16776418)|VARIABLE_ASSIGNMENT|[16]|objCon|{"AccountId":"0011r00001mSXW3AAO","Id":"0031r000023uSgHAAU","Name":"Tom Ripley","Email":"tripley@uog.com","Phone":"(650) 450-8810"}|0xb5f9f9c
+16:12:31.0 (16782518)|STATEMENT_EXECUTE|[17]
+16:12:31.0 (16783954)|STATEMENT_EXECUTE|[18]
+16:12:31.0 (16822145)|HEAP_ALLOCATE|[18]|Bytes:123
+16:12:31.0 (16835443)|HEAP_ALLOCATE|[18]|Bytes:136
+16:12:31.0 (16843664)|USER_DEBUG|[18]|DEBUG|---contact---Contact:{AccountId=0011r00001mSXW3AAO, Id=0031r000023uSgHAAU, Name=Tom Ripley, Email=tripley@uog.com, Phone=(650) 450-8810}
+16:12:31.0 (16853386)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (16874017)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (16878867)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (16920427)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.next()
+16:12:31.0 (16926350)|VARIABLE_SCOPE_BEGIN|[16]|objCon|Contact|true|false
+16:12:31.0 (16939654)|VARIABLE_ASSIGNMENT|[16]|objCon|{"AccountId":"0011r00001mSXW3AAO","Id":"0031r000023uSgIAAU","Name":"Liz D'Cruz","Email":"ldcruz@uog.com","Phone":"(650) 450-8810"}|0xe811741
+16:12:31.0 (16945224)|STATEMENT_EXECUTE|[17]
+16:12:31.0 (16946631)|STATEMENT_EXECUTE|[18]
+16:12:31.0 (16977462)|HEAP_ALLOCATE|[18]|Bytes:122
+16:12:31.0 (16989123)|HEAP_ALLOCATE|[18]|Bytes:135
+16:12:31.0 (16996605)|USER_DEBUG|[18]|DEBUG|---contact---Contact:{AccountId=0011r00001mSXW3AAO, Id=0031r000023uSgIAAU, Name=Liz D'Cruz, Email=ldcruz@uog.com, Phone=(650) 450-8810}
+16:12:31.0 (17005818)|METHOD_ENTRY|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (17017541)|METHOD_EXIT|[16]||Database.QueryLocatorIterator.hasNext()
+16:12:31.0 (17026719)|VARIABLE_ASSIGNMENT|[16]|objCon|null|
+16:12:31.0 (17038034)|HEAP_ALLOCATE|[13]|Bytes:5
+16:12:31.0 (17047527)|VARIABLE_ASSIGNMENT|[13]|objAcc|null|
+16:12:31.0 (17051181)|STATEMENT_EXECUTE|[23]
+16:12:31.0 (17164375)|USER_DEBUG|[23]|DEBUG|(Account:{Id=0011r00001mSXVuAAO, Name=Edge Communications, AccountNumber=CD451796}, Account:{Id=0011r00001mSXVvAAO, Name=Burlington Textiles Corp of America, AccountNumber=CD656092}, Account:{Id=0011r00001mSXVwAAO, Name=Pyramid Construction Inc., AccountNumber=CC213425}, Account:{Id=0011r00001mSXVxAAO, Name=Dickenson plc, AccountNumber=CC634267}, Account:{Id=0011r00001mSXVyAAO, Name=Grand Hotels & Resorts Ltd, AccountNumber=CD439877}, Account:{Id=0011r00001mSXVzAAO, Name=United Oil & Gas Corp., AccountNumber=CD355118}, Account:{Id=0011r00001mSXW0AAO, Name=Express Logistics and Transport, AccountNumber=CC947211}, Account:{Id=0011r00001mSXW1AAO, Name=University of Arizona, AccountNumber=CD736025}, Account:{Id=0011r00001mSXW2AAO, Name=United Oil & Gas, UK, AccountNumber=CD355119-A}, Account:{Id=0011r00001mSXW3AAO, Name=United Oil & Gas, Singapore, AccountNumber=CD355120-B})
+16:12:31.0 (17183466)|STATEMENT_EXECUTE|[29]
+16:12:31.0 (17189912)|SYSTEM_MODE_EXIT|false
+16:12:31.0 (33133633)|VF_SERIALIZE_VIEWSTATE_BEGIN|0661r0000024L7D
+16:12:31.0 (34913752)|VF_SERIALIZE_VIEWSTATE_END
+16:12:31.52 (52381676)|CUMULATIVE_LIMIT_USAGE
+16:12:31.52 (52381676)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 27 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+16:12:31.52 (52381676)|CUMULATIVE_LIMIT_USAGE_END
+
+16:12:31.0 (52423227)|CODE_UNIT_FINISHED|VF: /apex/VforceApp
+16:12:31.0 (53322701)|EXECUTION_FINISHED

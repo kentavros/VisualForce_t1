@@ -1,0 +1,27 @@
+42.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+13:02:16.0 (322054)|USER_INFO|[EXTERNAL]|0051r000007nKPL|assh4884@cunning-goat-277018.com|Greenwich Mean Time|GMT+01:00
+13:02:16.0 (361984)|EXECUTION_STARTED
+13:02:16.0 (365681)|CODE_UNIT_STARTED|[EXTERNAL]|0661r0000024Ibb|VF: /apex/testVisualforce
+13:02:16.0 (55217982)|VF_SERIALIZE_VIEWSTATE_BEGIN|0661r0000024Ibb
+13:02:16.0 (67420450)|VF_SERIALIZE_VIEWSTATE_END
+13:02:16.0 (68213520)|CODE_UNIT_STARTED|[EXTERNAL]|Generate Metadata
+13:02:16.0 (68731252)|CODE_UNIT_FINISHED|Generate Metadata
+13:02:16.80 (80630126)|CUMULATIVE_LIMIT_USAGE
+13:02:16.80 (80630126)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 20 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+13:02:16.80 (80630126)|CUMULATIVE_LIMIT_USAGE_END
+
+13:02:16.0 (80669520)|CODE_UNIT_FINISHED|VF: /apex/testVisualforce
+13:02:16.0 (81458668)|EXECUTION_FINISHED

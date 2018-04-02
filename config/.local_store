@@ -1,0 +1,58 @@
+{
+    "VforceApp.page": {
+        "createdById": "0051r000007nKPLAA2",
+        "createdByName": "Alexsandr Sh",
+        "createdDate": "2018-03-29T13:12:07.000Z",
+        "fileName": "unpackaged/pages/VforceApp.page",
+        "fullName": "VforceApp",
+        "id": "0661r0000024L7DAAU",
+        "lastModifiedById": "0051r000007nKPLAA2",
+        "lastModifiedByName": "Alexsandr Sh",
+        "lastModifiedDate": "2018-04-01T15:56:25.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexPage",
+        "mmState": "clean"
+    },
+    "VforceAppCheckAccess.cls": {
+        "createdById": "0051r000007nKPLAA2",
+        "createdByName": "Alexsandr Sh",
+        "createdDate": "2018-04-01T08:27:41.000Z",
+        "fileName": "unpackaged/classes/VforceAppCheckAccess.cls",
+        "fullName": "VforceAppCheckAccess",
+        "id": "01p1r000008QkDwAAK",
+        "lastModifiedById": "0051r000007nKPLAA2",
+        "lastModifiedByName": "Alexsandr Sh",
+        "lastModifiedDate": "2018-04-01T12:33:12.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "VforceAppController.cls": {
+        "createdById": "0051r000007nKPLAA2",
+        "createdByName": "Alexsandr Sh",
+        "createdDate": "2018-03-29T13:13:59.000Z",
+        "fileName": "unpackaged/classes/VforceAppController.cls",
+        "fullName": "VforceAppController",
+        "id": "01p1r000008OnzeAAC",
+        "lastModifiedById": "0051r000007nKPLAA2",
+        "lastModifiedByName": "Alexsandr Sh",
+        "lastModifiedDate": "2018-04-01T16:27:30.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "VforceAppControllerTest.cls": {
+        "createdById": "0051r000007nKPLAA2",
+        "createdByName": "Alexsandr Sh",
+        "createdDate": "2018-04-01T11:46:11.000Z",
+        "fileName": "unpackaged/classes/VforceAppControllerTest.cls",
+        "fullName": "VforceAppControllerTest",
+        "id": "01p1r000008QkX7AAK",
+        "lastModifiedById": "0051r000007nKPLAA2",
+        "lastModifiedByName": "Alexsandr Sh",
+        "lastModifiedDate": "2018-04-01T16:27:40.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    }
+}
